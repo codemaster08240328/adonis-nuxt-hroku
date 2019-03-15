@@ -1,0 +1,70 @@
+html,body {
+  height: 100%;
+
+}
+.autocomplete-wrapper {
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.ais-InstantSearch {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.ais-Autocomplete {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.label-where {
+  font-size: 1.5rem;
+  color: #000;
+  display: block;
+  margin: 0;
+  font-weight: 600;
+}
+
+.label-where-desc {
+  display: block;
+  color: #666;
+}
+
+.list {
+  position: absolute;
+  z-index: 2;
+
+  overflow: auto;
+
+  max-width: 800px;
+  width: 800px;
+  max-height: 150px;
+  margin: 0;
+  margin-top: 5px;
+  padding: 0;
+
+  border: 1px solid #eee;
+
+  list-style: none;
+
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
+    li {
+      margin: 0;
+      padding: 8px 15px;
+
+      border-bottom: 1px solid #f5f5f5;
+      &:last-child {
+        border-bottom: 0;
+      }
+      &:hover, &.active {
+        background-color: #f5f5f5;
+      }
+    }
+}

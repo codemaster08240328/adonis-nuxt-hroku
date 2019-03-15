@@ -1,0 +1,164 @@
+// https://robots.thoughtbot.com/controlling-color-with-sass-color-functions
+
+//$grid-gutter-width:           60px !default;
+
+// -----------------------------------------------
+// Colors
+// -----------------------------------------------
+//$brand-primary: #fecc57;
+//$brand-secondary: #fecc57;
+$brand-primary: #f5b84f;
+$brand-secondary: #f5b84f;
+
+$headings-color: #fff;
+
+// -----------------------------------------------
+// Body
+// -----------------------------------------------
+$body-bg:   #fff;
+$font-color: rgba(255,255,255,.8);
+
+// -----------------------------------------------
+// Font
+// -----------------------------------------------
+//$font-family-base: 'eurostile-condensed', sans-serif;
+//$font-family-base: 'mj_text_light';
+//$headings-font-family: 'mj_heading_bold';
+//$button-font-family: 'mj_text_reg';
+//
+//$navbar-font-family: 'mj_bold';
+//$mainfont: $font-family-base;
+//
+//$text-bold: 'mj_text_bold';
+//$text-regular: 'mj_text_reg';
+
+// -----------------------------------------------
+// Link
+// -----------------------------------------------
+//$link-color:            $brand-primary;
+$link-color: #333;
+$link-decoration:       none;
+$link-hover-color:      darken($link-color, 15%);
+$link-hover-decoration: underline;
+
+// -----------------------------------------------
+// Util
+// -----------------------------------------------
+$border-radius:          0rem;
+
+// -----------------------------------------------
+// Logo
+// -----------------------------------------------
+// @TODO: Since we use a fixed height with <svg>
+// Browsersupport IE we should change this markup
+// here and in _hero.scss
+$logo-height-xs: 50px;
+$logo-height: 50px;
+
+// should the logo be visible on mobile?
+// use hidden | visible
+$logo-visible-xs: visible;
+
+// -----------------------------------------------
+// Navbar
+// -----------------------------------------------
+
+$navbar-font-size: 1em;
+
+$navbar-border-color: transparent;
+$navbar-border-width: 0px;
+$navbar-top-margin: 0px;
+
+$navbar-border-radius:              $border-radius;
+$navbar-padding-x:                  0.5em;
+$navbar-padding-y:                  0;
+
+$navbar-brand-padding-y:            .25rem;
+
+$navbar-divider-padding-y:          .425rem;
+
+$nav-link-x-padding:  12px;
+$nav-link-y-padding: 0rem;
+
+$navbar-dark-color:                 #fff;
+$navbar-dark-hover-color:           rgba(255,255,255,.75);
+$navbar-dark-active-color:          rgba(255,255,255,1);
+
+$navbar-light-color:                rgba(0,0,0,.5);
+$navbar-light-hover-color:          rgba(0,0,0,.7);
+$navbar-light-active-color:         rgba(0,0,0,.9);
+// -----------------------------------------------
+// Mobile Menu
+// -----------------------------------------------
+
+//$mobile-menu-font-family: $headings-font-family;
+$mobile-menu-font-size: 1.2rem;
+$mobile-menu-font-weight: bold;
+$mobile-menu-background-color-hover: transparent;
+$mobile-menu-padding: 0.9rem;
+
+$mobile-menu-bg: #000;
+
+// @todo: create backend options to choose dark / light
+
+// Dark
+$mobile-light-menu-bg:           #fff;
+$mobile-light-menu-bg-open:      #fff;
+$mobile-light-menu-color:        #333;
+$mobile-light-menu-hover-color:  #fff;
+$mobile-light-menu-icon-color:   #fff;
+
+// Light
+$mobile-dark-menu-bg:           #000;
+$mobile-dark-menu-bg-open:      #000;
+$mobile-dark-menu-color:        #fff;
+$mobile-dark-menu-icon-color:   #fff;
+
+// Animation
+$mobile-menu-opening-speed: 200ms;
+$mobile-menu-closing-speed: 100ms;
+$mobile-menu-width: 300px;
+
+$navbar-border-width: 0;
+
+// -----------------------------------------------
+// Page Sweeper
+// -----------------------------------------------
+$page-sweeper-1: $brand-primary;
+$page-sweeper-2: tint($brand-primary,50%);
+
+$spinkit-spinner-margin: 40px auto;
+$spinkit-size: 40px;
+$spinkit-spinner-color: #fff;
+
+// -----------------------------------------------
+// splashscreen BG
+// -----------------------------------------------
+$bg-splashscreen: $brand-primary;
+
+// -----------------------------------------------
+// Scrollbar
+// -----------------------------------------------
+$scrollbar-color-thumb: #000;
+$scrollbar-color-bg: #F5F5F5;
+$scrollbar-width: 10px;
+
+// -----------------------------------------------
+// Selection
+// -----------------------------------------------
+$selection-bg-color: #f9f9f9;
+$selection-text-color: #666;
+
+// -----------------------------------------------
+// Screen
+// -----------------------------------------------
+$grid-breakpoints: (
+        xs: 0,
+        sm: 576px,
+        md: 768px,
+        lg: 992px,
+        xl: 1200px,
+        xxl: 1440px,
+        wide: 1900px,
+        max: 2354px
+);

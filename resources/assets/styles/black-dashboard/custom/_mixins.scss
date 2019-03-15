@@ -1,0 +1,49 @@
+@import "mixins/alert.scss";
+@import "mixins/badges.scss";
+@import "mixins/background-variant.scss";
+@import "mixins/buttons.scss";
+@import "mixins/forms.scss";
+@import "mixins/icon.scss";
+@import "mixins/modals.scss";
+@import "mixins/popovers.scss";
+@import "mixins/page-header.scss";
+@import "mixins/vendor-prefixes.scss";
+@import "mixins/opacity.scss";
+@import "mixins/modals.scss";
+@import "mixins/inputs.scss";
+@import "mixins/dropdown.scss";
+@import "mixins/wizard.scss";
+
+@mixin center-content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate3d(-50%, -50%, 0);
+}
+
+/*
+	Examples
+	.class-1 { @include aspect-ratio(); } 				No arguments defaults to a 1:1 ratio
+	.class-2 { @include aspect-ratio(16, 9); } 			Width and height
+	.class-3 { @include aspect-ratio(1.777778); } 		Ratio (calculated width/height)
+	.class-4 { @include aspect-ratio(4px, 3px); } 		Comparable units
+	.class-5 { @include aspect-ratio($ratio: 1.2); } 	Keywords
+*/
+@mixin aspect-ratio($ratio-or-width, $height: null) {
+  $padding: if(
+                  $height,
+                  percentage($height/$ratio-or-width),
+                  percentage(1 / $ratio-or-width)
+  );
+  &:before {
+    content: '';
+    float: left;
+    padding-bottom: $padding;
+  }
+  &:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}
+

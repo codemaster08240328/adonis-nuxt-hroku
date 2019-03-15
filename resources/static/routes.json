@@ -1,0 +1,189 @@
+[
+  {
+    "category": {
+      "id": "1",
+      "name": "Home",
+      "iconUrl": "",
+      "iconInactiveUrl": "",
+      "iconMapUrl": "/svg/pins/home4.svg",
+      "iconInactiveMapUrl": "",
+      "iconTransparentUrl": ""
+    },
+    "title": "Mobilitätscenter Luckerbauer",
+    "longText": "Ihre Tour startet und endet beim Mobilitätscenter Luckerbauer. Hier bekommen Sie Ihr E-Bike und alle wichtigen Informationen zur Tour.",
+    "primaryImage": {
+      "url": "luckerbauer/title.jpg",
+      "id": "1"
+    },
+    "geometry": "16.186520,47.526650",
+    "id": "1"
+  },
+  {
+    "category": {
+      "id": "2",
+      "name": "Schaubetrieb",
+      "iconUrl": "",
+      "iconInactiveUrl": "",
+      "iconMapUrl": "/svg/pins/eisgreissler.svg",
+      "iconInactiveMapUrl": "",
+      "iconTransparentUrl": ""
+    },
+    "title": "Eis Greissler Manufaktur",
+    "longText": "Köstliches Eis, ein gemütliches Kaffeehaus mit Terrasse, ein Hofladen mit regionalen Produkten, ein riesiger Erlebnisbereich für Kinder und die Möglichkeit, den Betrieb zu besichtigen – die Eis-Greissler-Manufaktur hat einiges zu bieten.",
+    "primaryImage": {
+      "url": "eisgreissler/title.jpg",
+      "id": "2"
+    },
+    "geometry": "16.154870,47.533000",
+    "id": "2"
+  },
+  {
+    "category": {
+      "id": "3",
+      "name": "Gasthaus",
+      "iconUrl": "",
+      "iconInactiveUrl": "",
+      "iconMapUrl": "/svg/pins/eat_drink.svg",
+      "iconInactiveMapUrl": "",
+      "iconTransparentUrl": ""
+    },
+    "title": "Krumbacherhhof",
+    "longText": "Der Krumbacherhof hat nicht nur ein vielfältiges Angebot an Speisen und Getränken, sondern bietet auch eine Möglichkeit zur Übernachtung in einem der neu renovierten Gästezimmer.",
+    "primaryImage": {
+      "url": "krumbacherhof/title.jpg",
+      "id": "3"
+    },
+    "geometry": "16.190360,47.522910",
+    "id": "3"
+  },
+  {
+    "category": {
+      "id": "3",
+      "name": "Gasthaus",
+      "iconUrl": "",
+      "iconInactiveUrl": "",
+      "iconMapUrl": "/svg/pins/eat_drink.svg",
+      "iconInactiveMapUrl": "",
+      "iconTransparentUrl": ""
+    },
+    "title": "Gasthof Heissenberger",
+    "longText": "Der Familienbetrieb setzt auf regionale Produkte und legt großen Wert auf Nachhaltigkeit. Der gemütliche Gastgarten lädt besonders im Sommer zum Verweilen ein.",
+    "primaryImage": {
+      "url": "gasthof_heissenberger/title.jpg",
+      "id": "4"
+    },
+    "geometry": "16.192580,47.523760",
+    "id": "4"
+  },
+  {
+    "category": {
+      "id": "3",
+      "name": "Gasthaus",
+      "iconUrl": "",
+      "iconInactiveUrl": "",
+      "iconMapUrl": "/svg/pins/water.svg",
+      "iconInactiveMapUrl": "",
+      "iconTransparentUrl": ""
+    },
+    "title": "Landschaftssee Krumbach",
+    "longText": "Am südlichen Ortsrand von Krumbach gelegen bietet der Landschaftssee einen wunderschönen Anblick. Auf Anfrage ist es möglich, hier zu fischen.",
+    "primaryImage": {
+      "url": "landschaftssee_krumbach/title.jpg",
+      "id": "5"
+    },
+    "geometry": "16.200170,47.514440",
+    "id": "5"
+  },
+  {
+    "category": {
+      "id": "3",
+      "name": "Gasthaus",
+      "iconUrl": "",
+      "iconInactiveUrl": "",
+      "iconMapUrl": "/svg/pins/eat_drink.svg",
+      "iconInactiveMapUrl": "",
+      "iconTransparentUrl": ""
+    },
+    "title": "AHA Halle",
+    "longText": "Neben dem kulinarischen Angebot der Pizzeria und der gemütlichen Atmosphäre im Moon Pub bietet die AHA-Halle auch ein vielfältiges Angebot an Sportmöglichkeiten.",
+    "primaryImage": {
+      "url": "landschaftssee_krumbach/title.jpg",
+      "id": "6"
+    },
+    "geometry": "16.191930,47.522220",
+    "id": "6"
+  },{
+  "category": {
+    "id": "3",
+    "name": "Gasthaus",
+    "iconUrl": "",
+    "iconInactiveUrl": "",
+    "iconMapUrl": "/svg/pins/eat_drink.svg",
+    "iconInactiveMapUrl": "",
+    "iconTransparentUrl": ""
+  },
+  "title": "Piris Gasthaus",
+  "longText": "Piri’s Gasthaus bietet Hausmannskost aus regionalen und saisonalen Produkten. Hier können Sie ganztägig warme Speisen genießen.",
+  "primaryImage": {
+    "url": "landschaftssee_krumbach/title.jpg",
+    "id": "7"
+  },
+  "geometry": "16.192590,47.523770",
+  "id": "7"
+},{
+  "category": {
+    "id": "3",
+    "name": "Gasthaus",
+    "iconUrl": "",
+    "iconInactiveUrl": "",
+    "iconMapUrl": "/svg/pins/eat_drink.svg",
+    "iconInactiveMapUrl": "",
+    "iconTransparentUrl": ""
+  },
+  "title": "Bäckerei Ochmann",
+  "longText": "In der liebevoll eingerichteten Bäckerei Ochmann können Sie ofenfrisches Brot und Gebäck, Süßspeisen und Kaffee-Spezialitäten genießen.",
+  "primaryImage": {
+    "url": "landschaftssee_krumbach/title.jpg",
+    "id": "8"
+  },
+  "geometry": "16.192580,47.523760",
+  "id": "8"
+},{
+  "category": {
+    "id": "3",
+    "name": "Gasthaus",
+    "iconUrl": "",
+    "iconInactiveUrl": "",
+    "iconMapUrl": "/svg/pins/eat_drink.svg",
+    "iconInactiveMapUrl": "",
+    "iconTransparentUrl": ""
+  },
+  "title": "Museumsdorf",
+  "longText": "Das Museumsdorf Krumbach besteht aus 5 Gebäuden und ist von 1. Mai bis 2. Juli und von 1. September bis 26. Oktober jeweils an Sonn- und Feiertagen von 14:00 – 17:00 geöffnet.",
+  "primaryImage": {
+    "url": "landschaftssee_krumbach/title.jpg",
+    "id": "9"
+  },
+  "geometry": "16.194590,47.517080",
+  "id": "9"
+},{
+  "category": {
+    "id": "3",
+    "name": "Gasthaus",
+    "iconUrl": "",
+    "iconInactiveUrl": "",
+    "iconMapUrl": "/svg/pins/water.svg",
+    "iconInactiveMapUrl": "",
+    "iconTransparentUrl": ""
+  },
+  "title": "Schwimmbad",
+  "longText": "Das Freibad mit Kantine und Beach-Volleyball-Platz ist von Anfang Juni bis Ende August je nach Witterung geöffnet.",
+  "primaryImage": {
+    "url": "landschaftssee_krumbach/title.jpg",
+    "id": "10"
+  },
+  "geometry": "16.192070,47.519810",
+  "id": "10"
+}
+]
+

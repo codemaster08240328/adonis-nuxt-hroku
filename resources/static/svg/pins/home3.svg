@@ -1,0 +1,28 @@
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #b61917;
+        stroke: #b61917;
+        stroke-width: 2px;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+      }
+    </style>
+  </defs>
+  <title>home3</title>
+  <path class="cls-1" d="M34.55,28.07,19,47,3.45,28.07h0A18,18,0,1,1,37,19,17.87,17.87,0,0,1,34.55,28.07Z"/>
+  <g id="gen-home">
+    <polyline class="cls-2" points="9.19 18.48 19 8.67 28.81 18.48"/>
+    <polyline class="cls-2" points="10.64 18.84 10.64 27.93 17.18 27.93 17.18 22.11 20.82 22.11 20.82 27.93 27.36 27.93 27.36 18.84"/>
+    <polyline class="cls-2" points="27.36 15.21 27.36 10.49 24.45 10.49 24.45 12.31"/>
+  </g>
+</svg>

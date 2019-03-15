@@ -1,0 +1,142 @@
+img{
+    border: 0;
+    max-width: 100%;
+    // border-radius: $border-radius-sm;
+}
+
+.img.object-fit {
+    display: block;
+}
+
+.img-raised{
+    box-shadow: $box-shadow-raised;
+}
+
+
+.object-fit {
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+img.lazyload {
+    background-color: #eee;
+}
+
+img.initial,
+img.loaded,
+img.error {
+    opacity: 1;
+}
+
+.image-wrapper {
+
+    figure {
+        overflow: hidden;
+        position: relative;
+        margin: 0;
+        display: block;
+    }
+
+    img {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate3D(-50%, -50%, 0);
+        -o-transform: translate3D(-50%, -50%, 0);
+        transform: translate3D(-50%, -50%, 0);
+        height: 100%;
+        width: 100%;
+    }
+}
+
+figure.img-landscape {
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+figure.img-portrait {
+    img {
+        max-width: 100%;
+    }
+}
+
+figure.square {
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+.static-figure {
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+    display: block;
+    img {
+        @include center-content();
+        height: 100%;
+        min-width: 100%;
+        width: auto;
+        //filter: grayscale(40%);
+    }
+}
+
+figure.ar-fill-height {
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+    display: block;
+    img {
+        height: 100%;
+        min-width: 100%;
+        width: auto;
+        position: absolute;
+        top: 15%;
+        left: 0;
+    }
+}
+
+[data-aspect-ratio="16:9"] {
+    @include aspect-ratio(16,9);
+}
+[data-aspect-ratio="16:5"] {
+    @include aspect-ratio(16,5);
+}
+[data-aspect-ratio="16:6"] {
+    @include aspect-ratio(16,6);
+}
+[data-aspect-ratio="16:8"] {
+    @include aspect-ratio(16,8);
+}
+[data-aspect-ratio="9:16"] {
+    @include aspect-ratio(9,16);
+}
+
+[data-aspect-ratio="3:2"] {
+    @include aspect-ratio(3,2);
+}
+[data-aspect-ratio="4:3"] {
+    @include aspect-ratio(4,3);
+}
+[data-aspect-ratio="3:4"] {
+    @include aspect-ratio(3,4);
+}
+[data-aspect-ratio="1:1"] {
+    @include aspect-ratio(1,1);
+}
+
+figure[data-aspect-ratio="auto"] {
+    width: 100%;
+    //height: 0;
+    //padding-bottom: 66.67%; /* You define this doing height / width * 100% */
+    position: relative;
+    img {
+        width: 100%;
+        /* height: auto; */
+        position: absolute;
+    }
+}
+
